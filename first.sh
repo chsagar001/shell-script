@@ -80,3 +80,5 @@ echo ${xtestname}
 : ${1:?" please set variable values. "}
 
 echo "i am here."
+
+echo "hi"
