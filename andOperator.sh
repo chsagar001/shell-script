@@ -7,4 +7,4 @@ echo "Step 2: Create a new directory"
 #mkdir C:\sagar\shell && echo "Directory created successfully"
 
 # Check if Google's DNS server is reachable
-ping -c 1 8.8.8.8 && echo "Server is reachable" || echo "Server is not reachable"
+ping -c 1 8.8.8.8>/dev/null && echo "Server is reachable" || echo "Server is not reachable"
