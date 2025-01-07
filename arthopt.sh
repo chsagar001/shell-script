@@ -17,3 +17,14 @@ echo $a
 echo $a
 
 echo "Body of Email" | mail -s "Subject of the email." sagarsingh.jee2016@gmail.com
+
+
+#Not Operator
+name="Sagar"
+othername="sagar"
+
+if [[ ${name} != ${othername} ]]; then
+    echo "both are equal"
+else
+    echo "both are not equal"
+fi

@@ -72,10 +72,10 @@ yourName=${unsetvariable-Ubuntu}
 echo $yourName
 
 xname=""
-xtestname=${xname:-kali} 
+xtestname=${xname:-kali}
 echo ${xtestname}
 
-
+#command line argument
 #q="Reflex"
 : ${1:?" please set variable values. "}
 
